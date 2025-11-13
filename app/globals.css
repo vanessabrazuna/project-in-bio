@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-*: initial;
+  --color-background-primary: #050505;
+  --color-background-secondary: #0f0f10;
+  --color-background-tertiary: #19191a;
+
+  --color-content-heading: #ffffff;
+  --color-content-body: #cdcbcc;
+  --color-content-placeholder: #827d7f;
+  --color-content-headline: #b2b2b2;
+
+  --color-border-primary: #19191a;
+  --color-border-secondary: #323234;
+  --color-border-tertiary: #97979b;
+
+  --color-accent-purple: #4b2dbb;
+  --color-accent-green: #87bb20;
+  --color-accent-pink: #b5446b;
+  --color-accent-yellow: #DCCB2E;
+
+  --color-accent-purple-dark: #171031;
+  --color-accent-blue-dark: #102831;
+  --color-accent-green-dark: #222D26;
+  --color-accent-pink-dark: #2C1A22;
+  --color-accent-yellow-dark: #282A0F;
+
+  --font-sans: var(--font-red-hat-display);
+}
+
+body {
+  @apply antialiased bg-background-primary text-content-heading font-sans typografy-body-medium;
+}
+
+@utility typografy-heading-large {
+    @apply text-5xl leading-16 font-bold;
+}
+
+@utility typografy-heading-medium {
+    @apply text-4xl leading-11 font-bold;
+}
+
+@utility typografy-heading-small {
+    @apply text-xl leading-7 font-bold;
+}
+
+@utility typografy-body-large {
+    @apply text-xl leading-7 font-normal;
+}
+
+@utility typografy-body-medium {
+    @apply text-base leading-6 font-normal;
+}
+
+@utility typografy-body-small {
+    @apply text-xs leading-5 font-normal;
+}
+
+@utility typografy-label {
+    @apply text-base leading-6 font-bold;
+}
