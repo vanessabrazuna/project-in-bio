@@ -1,4 +1,4 @@
-  import { ReactNode } from "react"
+  import type { ReactNode } from "react"
   import "./globals.css"  
 
   import { Red_Hat_Display } from "next/font/google"
