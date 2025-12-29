@@ -7,7 +7,7 @@ import TextInput from "../ui/text-input"
 export default function Hero() {
   return (
     <div className="flex h-screen">
-      <div className="w-full flex flex-col gap-2 mt-[35vh] pl-12">
+      <div className="w-full flex flex-col gap-2 mt-[35vh]">
         <h1 className="text-5xl font-bold text-white leading-16">
           Seus projetos e redes sociais em um único link
         </h1>
